@@ -14,3 +14,10 @@ In this sample you will implement a grocery store cash register.  Given a number
       is above a threshold, eg. $5 off when you spend $100 or more
 
 The goal of this exercise is to evaluate your coding style, Object-Oriented Design skills and functional completeness.
+
+---
+
+### See also
+
+For quick solution overview check out following document [Visison and Scope](https://github.com/igor-toporet/SampleCashRegister/blob/master/Doc/2%20-%20Vision%20and%20Scope.md)
+
