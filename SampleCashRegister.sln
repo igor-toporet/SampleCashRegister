@@ -3,17 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{D86A1064-D612-49B4-A15F-EEA0E952B248}"
 	ProjectSection(SolutionItems) = preProject
-		Doc\! ReadMe.txt = Doc\! ReadMe.txt
-		Doc\1 - Requirements.mkdn = Doc\1 - Requirements.mkdn
-		Doc\2 - Vision and Scope.mkdn = Doc\2 - Vision and Scope.mkdn
-		Doc\3 - Design (draft).mkdn = Doc\3 - Design (draft).mkdn
+		Doc\1 - Requirements.md = Doc\1 - Requirements.md
+		Doc\2 - Vision and Scope.md = Doc\2 - Vision and Scope.md
+		Doc\3 - Design (draft).md = Doc\3 - Design (draft).md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{4F802747-3180-4553-8942-F0F59C9C159C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCashRegister", "Src\SampleCashRegister\SampleCashRegister.csproj", "{C28E66BB-FDCA-4D49-A599-F11AF2022A2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Src\Core\Core.csproj", "{C28E66BB-FDCA-4D49-A599-F11AF2022A2B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "Src\UnitTests\UnitTests.csproj", "{06B967DD-D552-42F0-8130-630A8AACBEB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCashRegister.UnitTests", "Src\SampleCashRegister.UnitTests\SampleCashRegister.UnitTests.csproj", "{06B967DD-D552-42F0-8130-630A8AACBEB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,9 +29,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{C28E66BB-FDCA-4D49-A599-F11AF2022A2B} = {4F802747-3180-4553-8942-F0F59C9C159C}
-		{06B967DD-D552-42F0-8130-630A8AACBEB9} = {4F802747-3180-4553-8942-F0F59C9C159C}
 	EndGlobalSection
 EndGlobal
