@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{D86A1064-D612-49B4-A15F-EEA0E952B248}"
+	ProjectSection(SolutionItems) = preProject
+		Doc\! ReadMe.txt = Doc\! ReadMe.txt
+		Doc\1 - Requirements.mkdn = Doc\1 - Requirements.mkdn
+		Doc\2 - Vision and Scope.mkdn = Doc\2 - Vision and Scope.mkdn
+		Doc\3 - Design (draft).mkdn = Doc\3 - Design (draft).mkdn
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{4F802747-3180-4553-8942-F0F59C9C159C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Src\Core\Core.csproj", "{C28E66BB-FDCA-4D49-A599-F11AF2022A2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "Src\UnitTests\UnitTests.csproj", "{06B967DD-D552-42F0-8130-630A8AACBEB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C28E66BB-FDCA-4D49-A599-F11AF2022A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28E66BB-FDCA-4D49-A599-F11AF2022A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28E66BB-FDCA-4D49-A599-F11AF2022A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28E66BB-FDCA-4D49-A599-F11AF2022A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B967DD-D552-42F0-8130-630A8AACBEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B967DD-D552-42F0-8130-630A8AACBEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B967DD-D552-42F0-8130-630A8AACBEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B967DD-D552-42F0-8130-630A8AACBEB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C28E66BB-FDCA-4D49-A599-F11AF2022A2B} = {4F802747-3180-4553-8942-F0F59C9C159C}
+		{06B967DD-D552-42F0-8130-630A8AACBEB9} = {4F802747-3180-4553-8942-F0F59C9C159C}
+	EndGlobalSection
+EndGlobal
