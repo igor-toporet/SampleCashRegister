@@ -6,7 +6,7 @@ I'm going to focus on implementation of **calculation of total** rather than imp
 
 ## Order
 
-So I assume that at some moment there is an <order> with **items**. Each **item** has indication of what **product** it represents, **quantity** of it and **price per unit**. _The important proposition is that price is dictated by product_. So as soon as product is indicated then its **price per unit** can be retrieved from an appropriate application subsystem/module (e.g. PriceList). Implementation of such price list subsystem is out of current scope.
+So I assume that at some moment there is an **order** with **items**. Each **item** has indication of what **product** it represents, **quantity** of it and **price per unit**. _The important proposition is that price is dictated by product_. So as soon as product is indicated then its **price per unit** can be retrieved from an appropriate application subsystem/module (e.g. PriceList). Implementation of such price list subsystem is out of current scope.
 
 
 ### Products by piece
