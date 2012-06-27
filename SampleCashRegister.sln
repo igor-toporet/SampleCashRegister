@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{D86A1064-D612-49B4-A15F-EEA0E952B248}"
 	ProjectSection(SolutionItems) = preProject
 		Doc\1 - Requirements.md = Doc\1 - Requirements.md
@@ -8,9 +8,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{D86A1064-D61
 		Doc\3 - Design (draft).md = Doc\3 - Design (draft).md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCashRegister", "Src\SampleCashRegister\SampleCashRegister.csproj", "{C28E66BB-FDCA-4D49-A599-F11AF2022A2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCashRegister", "Source\SampleCashRegister.csproj", "{C28E66BB-FDCA-4D49-A599-F11AF2022A2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCashRegister.UnitTests", "Src\SampleCashRegister.UnitTests\SampleCashRegister.UnitTests.csproj", "{06B967DD-D552-42F0-8130-630A8AACBEB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{06B967DD-D552-42F0-8130-630A8AACBEB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,14 +18,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C28E66BB-FDCA-4D49-A599-F11AF2022A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C28E66BB-FDCA-4D49-A599-F11AF2022A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C28E66BB-FDCA-4D49-A599-F11AF2022A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C28E66BB-FDCA-4D49-A599-F11AF2022A2B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{06B967DD-D552-42F0-8130-630A8AACBEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{06B967DD-D552-42F0-8130-630A8AACBEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06B967DD-D552-42F0-8130-630A8AACBEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06B967DD-D552-42F0-8130-630A8AACBEB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C28E66BB-FDCA-4D49-A599-F11AF2022A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28E66BB-FDCA-4D49-A599-F11AF2022A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28E66BB-FDCA-4D49-A599-F11AF2022A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28E66BB-FDCA-4D49-A599-F11AF2022A2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

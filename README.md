@@ -1,4 +1,5 @@
 #### Sample Programming Challenge
+
 ## The Problem - Grocery Store Cash Register
 
 In this sample you will implement a grocery store cash register.  Given a number of items you will be required to calculate the total bill.  Items are charged for in a couple of different ways.
