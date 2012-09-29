@@ -94,4 +94,4 @@ For example:
 
 ## Receipt
 
-The problem of printing the final receipt for the order is pretty interesting and provides spacious opportunities for _understandability_ and _readability_ enhancements as well as possibilities to apply different design patterns. Although it is so attractive, at the moment it will be not implemented nevertheless.
+The problem of printing the final receipt for the order is pretty interesting and provides spacious opportunities for _understandability_ and _readability_ enhancements as well as possibilities to apply different design patterns. Although it is so attractive, at the moment it won't be implemented nevertheless.
