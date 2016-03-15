@@ -20,5 +20,5 @@ The goal of this exercise is to evaluate your coding style, Object-Oriented Desi
 
 ### See also
 
-For quick solution overview check out following document [Visison and Scope](https://github.com/igor-toporet/SampleCashRegister/blob/master/Doc/2%20-%20Vision%20and%20Scope.md)
+For quick solution overview check out following document [Vision and Scope](https://github.com/igor-toporet/SampleCashRegister/blob/master/Doc/2%20-%20Vision%20and%20Scope.md)
 
