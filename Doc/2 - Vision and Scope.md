@@ -35,7 +35,7 @@ Products which are sold _by weight_ are added to the order in following 3-steps 
 	_OR even by intelligent scale_
 	_OR in another way_
 
-2. product's **price per unit** is properly calculated or retrieved _(for example from aforementiond PriceList subsystem)_
+2. product's **price per unit** is properly calculated or retrieved _(for example from aforementioned PriceList subsystem)_
 
 3. **quantity** is specified by scales
 
